@@ -13,4 +13,7 @@ int main()
 		cout << data.at(4) << endl;
 
 	}
+	catch (exception& e) {
+		cout << e.what() << endl;
+	}
 }
